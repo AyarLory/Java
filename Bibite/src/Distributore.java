@@ -6,6 +6,7 @@
 5) getGettoni: Che ci dice il numero di gettoni all'interno del distributore
 */
 
+//Iniziamo con il creare la classe Distributore con tutti i vari metodi
 public class Distributore{
     private int numeroLattine;
     private int numeroGettoni;
@@ -34,6 +35,7 @@ public class Distributore{
             return numeroGettoni;
         }
 
+    //Inizio del main
     public static void main(String[] args){
             Distributore distributore = new Distributore();
 
